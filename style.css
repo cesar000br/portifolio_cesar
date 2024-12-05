@@ -1,0 +1,98 @@
+css
+body {
+  font-family: sans-serif; /* Uma fonte agradavel  */
+  background-color: #e0f2f7; /* Azul claro */
+  margin: 20px;
+}
+
+nav {
+  background-color: #428bca; /* Azul mais escuro para a barra de navegação */
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/*<!--Aqui vou colocar o css da pagina dos contatos: vamos ver se vai dar-->*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+  }
+  
+  nav {
+    background-color: #4682B4; /* Steelblue */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  form {
+    border: 1px solid #4682B4;
+    padding: 20px;
+    width: 400px; /* Pode ser ajustado melhor mas é o suficiente */
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .meus-contatos {
+    border: 1px solid #4682B4;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
